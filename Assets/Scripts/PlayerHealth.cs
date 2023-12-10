@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
             if (currentHealth <= 0)
             {
                 // Load Game Over Screen
-                SceneManager.LoadScene("GameOver");
+                SceneManager.LoadScene("DeathScreen");
             }
         }
     }
